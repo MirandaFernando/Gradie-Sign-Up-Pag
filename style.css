@@ -1,0 +1,148 @@
+
+:root {
+    --cyprus: #003343;
+    --half-baked: #86BFD3;
+    --white: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url(./assets/Background.png);
+    background-size: 1450px;
+    min-height: 161px;
+    width: 100%;
+    font-family: "Roboto";
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--cyprus);
+}
+
+.mockup {
+    height: 350px;
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 98px;
+}
+.title {
+    text-align: center;
+    color: var(--white);
+    padding-top: 30px;    
+}
+.subtitle {
+    text-align: center;
+    color: var(--half-baked);
+    padding-top: 15px;
+}
+
+.container_form {
+    background-color: var(--white);
+    padding: 30px;
+    height: 100%;
+}
+.login_form {
+    margin-left: 15px;
+}
+.login_title {
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.form_label {
+    margin: 0 0 10px 0;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+
+.form_input {
+    margin: 10px 0 25px 0;
+    padding: 15px 90px 15px 10px;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.terms {  
+    margin-left: 35px;
+    text-align: center;
+    text-align: justify;
+}
+.terms_link {
+    font-weight: bold;
+    color: var(--cyprus);
+    text-decoration: underline;
+}
+.login_button {
+    border: none;
+    
+    margin-top: 15px;
+    padding: 15px 90px 15px 70px;
+    background-color: var(--cyprus);
+    color: var(--white);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px){
+    .main {
+        height: 100%;
+        padding-top: 100px;
+        padding-bottom: 400px;
+    }
+    .container {
+        width: 400px;
+        justify-content: center;
+        margin-left: 180px;
+        margin-right: 110px;
+    }
+    .container_form {
+        width: 339px;
+        height: 400px;
+        margin-left: 180px;
+        margin-right: 110px;
+        
+    }
+    .login_title{
+        margin-left: 30px;
+    }
+    .login_form {
+        margin-left: 30px;
+    }
+    @media (min-width: 1001px){
+        .main {
+            display: flex;
+            width: 100%;
+            height: 100px;
+        }
+        .container {
+            margin-left: 300px;
+            margin-right: 0;
+            height: 500px;
+        }
+        .container_form {
+            margin-left: 0;
+            height: 440px;
+        }
+        .mockup {
+         margin-bottom: 300px;
+         padding-top: 48px;
+        }
+
+        .login_title {
+            padding-top: 30px;
+        }
+        .login_form {
+            padding-top: 20px;
+        }
+    }
+}
+
+
+
