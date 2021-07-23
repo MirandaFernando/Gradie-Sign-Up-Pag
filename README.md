@@ -8,5 +8,5 @@ Gradie is a simple sign up page, great to practice centering layouts and absolut
 To start the project, just open the file `index.html` in your preferred browser.
 
 ---
-## iew Project
+## View Project
 https://mirandafernando.github.io/Gradie-Sign-Up-Pag/
