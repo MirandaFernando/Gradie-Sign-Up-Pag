@@ -95,6 +95,7 @@
         height: 100%;
         padding-top: 100px;
         padding-bottom: 400px;
+        background-size: cover;
     }
     .container {
         width: 400px;
